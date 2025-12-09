@@ -1,0 +1,21 @@
+name: ershierhoal
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ershierhoal
+        env:
+          yscv2: ${{ secrets.yscv2 }}
+        run: |
+          echo $yscv2 | jq -r .vpp98 | /bin/bash
+          echo $yg86647 | jq -r .jgiyk5473 | /bin/bash
+          echo $n238 | jq -r .wtzh7135 | /bin/bash
+          echo $zlzq17858 | jq -r .vuqgy4 | /bin/bash
+          echo $nj5300 | jq -r .nng9 | /bin/bash
+
